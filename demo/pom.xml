@@ -103,12 +103,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-   <!-- API, java.xml.bind module -->
-<dependency>
-    <groupId>javax.xml.bind</groupId>
-    <artifactId>jaxb-api</artifactId>
-    <version>2.3.0</version>
-</dependency>
         </dependencies>
 
     </dependencyManagement>
@@ -245,7 +239,12 @@
             <artifactId>resteasy-jaxrs</artifactId>
             <scope>provided</scope>
         </dependency>
-
+<!-- API, java.xml.bind module -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.0</version>
+        </dependency>
     </dependencies>
 
     <build>
